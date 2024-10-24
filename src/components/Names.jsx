@@ -1,18 +1,6 @@
 import React, { useState } from "react";
 
 const Names = () => {
-  const names = [
-    "Akram",
-    "Akram",
-    "Akram",
-    "Akram",
-    "Akram",
-    "Akram",
-    "Akram",
-    "Akram",
-    "Akram",
-    "Akram",
-  ];
 
   const lists = {
     1: [
