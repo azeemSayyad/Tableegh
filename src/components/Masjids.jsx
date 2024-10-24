@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const List = () => {
-  const list = ["KHALIDIYA", "MARKAZ", "RAHMANIYA", "MADINA"];
+const Masjids = () => {
+  const list = ["KHALIDIYA(MADARSA)", "KOUSAR", "NIMRA", "SAHABA"];
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/masjids");
+    navigate("/names");
   };
 
   return (
@@ -23,4 +23,4 @@ const List = () => {
   );
 };
 
-export default List;
+export default Masjids
